@@ -1,0 +1,1429 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFont",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CustomFont"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontStyle",
+        "printedName": "FontStyle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "storeFontNames",
+            "printedName": "storeFontNames(ultraLight:thin:light:regular:medium:semiBold:bold:heavy:black:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomFont0B5StyleC05storeB5Names10ultraLight4thin5light7regular6medium8semiBold4bold5heavy5blackySS_S8StFZ",
+            "mangledName": "$s10CustomFont0B5StyleC05storeB5Names10ultraLight4thin5light7regular6medium8semiBold4bold5heavy5blackySS_S8StFZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CustomFont0B5StyleC",
+        "mangledName": "$s10CustomFont0B5StyleC",
+        "moduleName": "CustomFont",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontName",
+        "printedName": "FontName",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ultaLight",
+            "printedName": "ultaLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV9ultaLightSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV9ultaLightSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV9ultaLightSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV9ultaLightSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thin",
+            "printedName": "thin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV4thinSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV4thinSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV4thinSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV4thinSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV5lightSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV5lightSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV5lightSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV5lightSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "regular",
+            "printedName": "regular",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV7regularSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV7regularSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV7regularSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV7regularSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV6mediumSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV6mediumSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV6mediumSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV6mediumSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "semiBold",
+            "printedName": "semiBold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV8semiBoldSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV8semiBoldSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV8semiBoldSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV8semiBoldSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bold",
+            "printedName": "bold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV4boldSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV4boldSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV4boldSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV4boldSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "heavy",
+            "printedName": "heavy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV5heavySSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV5heavySSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV5heavySSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV5heavySSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "black",
+            "printedName": "black",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B4NameV5blackSSvpZ",
+            "mangledName": "$s10CustomFont0B4NameV5blackSSvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B4NameV5blackSSvgZ",
+                "mangledName": "$s10CustomFont0B4NameV5blackSSvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CustomFont0B4NameV",
+        "mangledName": "$s10CustomFont0B4NameV",
+        "moduleName": "CustomFont",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "CustomFont",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "CustomFont"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFont"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontBlaster",
+        "printedName": "FontBlaster",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debugEnabled",
+            "printedName": "debugEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B7BlasterC12debugEnabledSbvpZ",
+            "mangledName": "$s10CustomFont0B7BlasterC12debugEnabledSbvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC12debugEnabledSbvgZ",
+                "mangledName": "$s10CustomFont0B7BlasterC12debugEnabledSbvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC12debugEnabledSbvsZ",
+                "mangledName": "$s10CustomFont0B7BlasterC12debugEnabledSbvsZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC12debugEnabledSbvMZ",
+                "mangledName": "$s10CustomFont0B7BlasterC12debugEnabledSbvMZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadedFonts",
+            "printedName": "loadedFonts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomFont0B7BlasterC11loadedFontsSaySSGvpZ",
+            "mangledName": "$s10CustomFont0B7BlasterC11loadedFontsSaySSGvpZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC11loadedFontsSaySSGvgZ",
+                "mangledName": "$s10CustomFont0B7BlasterC11loadedFontsSaySSGvgZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC11loadedFontsSaySSGvsZ",
+                "mangledName": "$s10CustomFont0B7BlasterC11loadedFontsSaySSGvsZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomFont0B7BlasterC11loadedFontsSaySSGvMZ",
+                "mangledName": "$s10CustomFont0B7BlasterC11loadedFontsSaySSGvMZ",
+                "moduleName": "CustomFont",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "blast",
+            "printedName": "blast(bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomFont0B7BlasterC5blast6bundleySo8NSBundleC_tFZ",
+            "mangledName": "$s10CustomFont0B7BlasterC5blast6bundleySo8NSBundleC_tFZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "blast",
+            "printedName": "blast(bundle:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSBundle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomFont0B7BlasterC5blast6bundle10completionySo8NSBundleC_ySaySSGcSgtFZ",
+            "mangledName": "$s10CustomFont0B7BlasterC5blast6bundle10completionySo8NSBundleC_ySaySSGcSgtFZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CustomFont0B7BlasterC",
+        "mangledName": "$s10CustomFont0B7BlasterC",
+        "moduleName": "CustomFont",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIFont",
+        "printedName": "UIFont",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "overrideInitialize",
+            "printedName": "overrideInitialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIFontC10CustomFontE18overrideInitializeyyFZ",
+            "mangledName": "$sSo6UIFontC10CustomFontE18overrideInitializeyyFZ",
+            "moduleName": "CustomFont",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIFont",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIFont",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 26,
+      "value": "\"NSCTFontUIUsageAttribute\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 18,
+      "value": "\"UIFontDescriptor\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 23,
+      "value": "\"CTFontUltraLightUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3718,
+      "length": 17,
+      "value": "\"CTFontThinUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 18,
+      "value": "\"CTFontLightUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3858,
+      "length": 20,
+      "value": "\"CTFontRegularUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3933,
+      "length": 19,
+      "value": "\"CTFontMediumUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4006,
+      "length": 23,
+      "value": "\"CTFontEmphasizedUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4085,
+      "length": 17,
+      "value": "\"CTFontBoldUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 18,
+      "value": "\"CTFontHeavyUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 18,
+      "value": "\"CTFontBlackUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4848,
+      "length": 18,
+      "value": "\"CTFontLightUsage\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 6,
+      "value": "\".ttf\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 6,
+      "value": "\".otf\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 6,
+      "value": "\".ttf\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 6,
+      "value": "\".otf\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "Array",
+      "offset": 708,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 27,
+      "value": "\"loadedFonts\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 13,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2122,
+      "length": 50,
+      "value": "\"No fonts were found in the bundle path: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2170,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 85,
+      "value": "\"There was an error loading fonts from the bundle. \nPath: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 1,
+      "value": "\".\nError: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 3082,
+      "length": 82,
+      "value": "\"There was an error accessing bundle with path. \nPath: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 3145,
+      "length": 1,
+      "value": "\".\nError: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 3163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 3986,
+      "length": 48,
+      "value": "\"Successfully loaded font: '\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4031,
+      "length": 4,
+      "value": "\"'.\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4286,
+      "length": 76,
+      "value": "\"Failed to load font '\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4319,
+      "length": 44,
+      "value": "\"': \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 36,
+      "value": "\"Failed to load font '\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4543,
+      "length": 4,
+      "value": "\"'.\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4694,
+      "length": 76,
+      "value": "\"Failed to load font '\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4727,
+      "length": 44,
+      "value": "\"': \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 4769,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 6112,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6178,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 6449,
+      "length": 27,
+      "value": "\"[FontBlaster]: \""
+    },
+    {
+      "filePath": "\/Users\/sreeni\/Documents\/CustomFont\/CustomFont\/FontBlaster.swift",
+      "kind": "StringLiteral",
+      "offset": 6475,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

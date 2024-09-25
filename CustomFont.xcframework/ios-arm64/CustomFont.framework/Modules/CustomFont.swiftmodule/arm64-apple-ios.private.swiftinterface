@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CustomFont
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreGraphics
+import CoreText
+@_exported import CustomFont
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class FontStyle {
+  public static func storeFontNames(ultraLight: Swift.String, thin: Swift.String, light: Swift.String, regular: Swift.String, medium: Swift.String, semiBold: Swift.String, bold: Swift.String, heavy: Swift.String, black: Swift.String)
+  @objc deinit
+}
+public struct FontName {
+  public static let ultaLight: Swift.String
+  public static let thin: Swift.String
+  public static let light: Swift.String
+  public static let regular: Swift.String
+  public static let medium: Swift.String
+  public static let semiBold: Swift.String
+  public static let bold: Swift.String
+  public static let heavy: Swift.String
+  public static let black: Swift.String
+}
+extension UIKit.UIFont {
+  open class func overrideInitialize()
+}
+@_hasMissingDesignatedInitializers public class FontBlaster {
+  public static var debugEnabled: Swift.Bool
+  public static var loadedFonts: [Swift.String]
+  public class func blast(bundle: Foundation.Bundle = Bundle.main)
+  public class func blast(bundle: Foundation.Bundle = Bundle.main, completion handler: (([Swift.String]) -> Swift.Void)?)
+  @objc deinit
+}

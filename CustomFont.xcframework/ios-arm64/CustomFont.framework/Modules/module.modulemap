@@ -1,0 +1,11 @@
+framework module CustomFont {
+  umbrella header "CustomFont.h"
+  export *
+
+  module * { export * }
+}
+
+module CustomFont.Swift {
+  header "CustomFont-Swift.h"
+  requires objc
+}
